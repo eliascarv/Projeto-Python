@@ -1,0 +1,225 @@
+{"_embedded": {"pregoes": [
+      {"_links": {"Eventos": {"href": "/pregoes/v1/evento_item_pregao.html?item=22952536",
+                                                   "title": "Eventos do Item "
+                                                            "da licitação"
+          },
+                                       "Propostas": {"href": "/pregoes/v1/proposta_item_pregao.html?item=22952536&co_pregao=832950",
+                                                     "title": "Propostas do "
+                                                              "Item da "
+                                                              "licitação"
+          },
+                                       "Termos": {"href": "/pregoes/v1/termos_pregao.html?nu_pregao=1372020&co_uasg=943001",
+                                                  "title": "Termos do pregão"
+          },
+                                       "self": {"href": "/pregoes/id/pregao/9430010001372020/itens/22952536",
+                                                "title": "Item 1: FILTRO"
+          }
+        },
+                            "decreto_7174": "FALSE",
+                            "descricao_detalhada_item": "FILTRO, TIPO "
+                                                        "RETENÇÃO,ABSORÇÃO DE "
+                                                        "AEROSÓIS E GASES "
+                                                        "TÓXICOS, MODELO C/ "
+                                                        "BISEL   PERFURANTE E "
+                                                        "CONECTOR, APLICAÇÃO "
+                                                        "MANIPULAÇÃO "
+                                                        "QUIMIOTERÁPICOS, "
+                                                        "ESTERILIDADE    "
+                                                        "ESTÉRIL",
+                            "descricao_item": "FILTRO",
+                            "fornecedor_vencedor": None,
+                            "margem_preferencial": "FALSE",
+                            "menor_lance": "15.00",
+                            "quantidade_item": "500",
+                            "situacao_item": "homologado",
+                            "tratamento_diferenciado": None,
+                            "unidade_fornecimento": "Unidade             ",
+                            "valor_estimado_item": "26.00",
+                            "valor_negociado": None
+      },
+      {"_links": {"Eventos": {"href": "/pregoes/v1/evento_item_pregao.html?item=22952537",
+                                                   "title": "Eventos do Item "
+                                                            "da licitação"
+          },
+                                       "Propostas": {"href": "/pregoes/v1/proposta_item_pregao.html?item=22952537&co_pregao=832950",
+                                                     "title": "Propostas do "
+                                                              "Item da "
+                                                              "licitação"
+          },
+                                       "Termos": {"href": "/pregoes/v1/termos_pregao.html?nu_pregao=1372020&co_uasg=943001",
+                                                  "title": "Termos do pregão"
+          },
+                                       "self": {"href": "/pregoes/id/pregao/9430010001372020/itens/22952537",
+                                                "title": "Item 2: FILTRO"
+          }
+        },
+                            "decreto_7174": "FALSE",
+                            "descricao_detalhada_item": "FILTRO, TIPO "
+                                                        "RETENÇÃO,ABSORÇÃO DE "
+                                                        "AEROSÓIS E GASES "
+                                                        "TÓXICOS, MODELO C/ "
+                                                        "BISEL   PERFURANTE E "
+                                                        "CONECTOR, APLICAÇÃO "
+                                                        "MANIPULAÇÃO "
+                                                        "QUIMIOTERÁPICOS, "
+                                                        "ESTERILIDADE    "
+                                                        "ESTÉRIL",
+                            "descricao_item": "FILTRO",
+                            "fornecedor_vencedor": None,
+                            "margem_preferencial": "FALSE",
+                            "menor_lance": "22.00",
+                            "quantidade_item": "700",
+                            "situacao_item": "homologado",
+                            "tratamento_diferenciado": None,
+                            "unidade_fornecimento": "Unidade             ",
+                            "valor_estimado_item": "31.00",
+                            "valor_negociado": None
+      },
+      {"_links": {"Eventos": {"href": "/pregoes/v1/evento_item_pregao.html?item=22952538",
+                                                   "title": "Eventos do Item "
+                                                            "da licitação"
+          },
+                                       "Propostas": {"href": "/pregoes/v1/proposta_item_pregao.html?item=22952538&co_pregao=832950",
+                                                     "title": "Propostas do "
+                                                              "Item da "
+                                                              "licitação"
+          },
+                                       "Termos": {"href": "/pregoes/v1/termos_pregao.html?nu_pregao=1372020&co_uasg=943001",
+                                                  "title": "Termos do pregão"
+          },
+                                       "self": {"href": "/pregoes/id/pregao/9430010001372020/itens/22952538",
+                                                "title": "Item 3: FILTRO"
+          }
+        },
+                            "decreto_7174": "FALSE",
+                            "descricao_detalhada_item": "FILTRO, TIPO BARREIRA "
+                                                        "DE BACTÉRIAS E VÍRUS, "
+                                                        "MODELO REGENERADOR DE "
+                                                        "CALOR E     "
+                                                        "UMIDADE,HIDROFÓBICO, "
+                                                        "APLICAÇÃO USO "
+                                                        "INFANTIL(VOL CORRENTE "
+                                                        "50 A 250ML),         "
+                                                        "ESTERILIDADE "
+                                                        "DESCARTÁVEL,ESTÉRIL, "
+                                                        "COMPATIBILIDADE SAÍDA "
+                                                        "P/ CAPNÓGRAFO",
+                            "descricao_item": "FILTRO",
+                            "fornecedor_vencedor": None,
+                            "margem_preferencial": "FALSE",
+                            "menor_lance": "8.00",
+                            "quantidade_item": "250",
+                            "situacao_item": "homologado",
+                            "tratamento_diferenciado": None,
+                            "unidade_fornecimento": "Unidade             ",
+                            "valor_estimado_item": "9.00",
+                            "valor_negociado": "9.18"
+      },
+      {"_links": {"Eventos": {"href": "/pregoes/v1/evento_item_pregao.html?item=22952539",
+                                                   "title": "Eventos do Item "
+                                                            "da licitação"
+          },
+                                       "Propostas": {"href": "/pregoes/v1/proposta_item_pregao.html?item=22952539&co_pregao=832950",
+                                                     "title": "Propostas do "
+                                                              "Item da "
+                                                              "licitação"
+          },
+                                       "Termos": {"href": "/pregoes/v1/termos_pregao.html?nu_pregao=1372020&co_uasg=943001",
+                                                  "title": "Termos do pregão"
+          },
+                                       "self": {"href": "/pregoes/id/pregao/9430010001372020/itens/22952539",
+                                                "title": "Item 4: FILTRO"
+          }
+        },
+                            "decreto_7174": "FALSE",
+                            "descricao_detalhada_item": "FILTRO, TIPO BARREIRA "
+                                                        "DE BACTÉRIAS E VÍRUS, "
+                                                        "MODELO REGENERADOR DE "
+                                                        "CALOR E     UMIDADE, "
+                                                        "APLICAÇÃO ESPAÇO "
+                                                        "MORTO 60ML, VOLUME "
+                                                        "CORRENTE 150 A "
+                                                        "1000ML,           "
+                                                        "ESTERILIDADE "
+                                                        "DESCARTÁVEL,ESTÉRIL, "
+                                                        "COMPATIBILIDADE "
+                                                        "ELEMENTO "
+                                                        "HIGROSCÓPICO       "
+                                                        "CLORETO DE CÁLCIO, "
+                                                        "COMPONENTE "
+                                                        "HIDROFÓBICO, "
+                                                        "FILTRAÇÃO > 99%, "
+                                                        "CONECTOR LUERLOCK",
+                            "descricao_item": "FILTRO",
+                            "fornecedor_vencedor": None,
+                            "margem_preferencial": "FALSE",
+                            "menor_lance": "6.00",
+                            "quantidade_item": "4120",
+                            "situacao_item": "item cancelado no julgamento",
+                            "tratamento_diferenciado": None,
+                            "unidade_fornecimento": "Unidade             ",
+                            "valor_estimado_item": "7.00",
+                            "valor_negociado": None
+      },
+      {"_links": {"Eventos": {"href": "/pregoes/v1/evento_item_pregao.html?item=22952540",
+                                                   "title": "Eventos do Item "
+                                                            "da licitação"
+          },
+                                       "Propostas": {"href": "/pregoes/v1/proposta_item_pregao.html?item=22952540&co_pregao=832950",
+                                                     "title": "Propostas do "
+                                                              "Item da "
+                                                              "licitação"
+          },
+                                       "Termos": {"href": "/pregoes/v1/termos_pregao.html?nu_pregao=1372020&co_uasg=943001",
+                                                  "title": "Termos do pregão"
+          },
+                                       "self": {"href": "/pregoes/id/pregao/9430010001372020/itens/22952540",
+                                                "title": "Item 5: FILTRO "
+                                                         "VENTILAÇÃO "
+                                                         "MECÂNICA"
+          }
+        },
+                            "decreto_7174": "FALSE",
+                            "descricao_detalhada_item": "FILTRO VENTILAÇÃO "
+                                                        "MECÂNICA, "
+                                                        "ESTERILIDADE ESTÉRIL, "
+                                                        "APLICAÇÃO "
+                                                        "AUTO              "
+                                                        "UMIDIFICADOR,P/ "
+                                                        "CIRCUITO DE "
+                                                        "RESPIRADOR MEC., "
+                                                        "CARACTERÍSTICAS "
+                                                        "ADICIONAIS "
+                                                        "ESPAÇOMORTO PADRÃO P/ "
+                                                        "TAMANHO ADULTO, TIPO "
+                                                        "HIGROSCÓPICO,BACTERIOSTÁTICO,BACTERIANO/ "
+                                                        "VIRAL, ACESSÓRIOS "
+                                                        "TUBO FLEXÍVEL, TIPO "
+                                                        "EMBALAGEM EMBALAGEM "
+                                                        "INDIVIDUAL EM PAPEL "
+                                                        "GRAU CIRÚRGICO/FILM "
+                                                        "E, TIPO USO "
+                                                        "DESCARTÁVEL",
+                            "descricao_item": "FILTRO VENTILAÇÃO MECÂNICA",
+                            "fornecedor_vencedor": None,
+                            "margem_preferencial": "FALSE",
+                            "menor_lance": "5.00",
+                            "quantidade_item": "6150",
+                            "situacao_item": "item cancelado no julgamento",
+                            "tratamento_diferenciado": None,
+                            "unidade_fornecimento": "Unidade             ",
+                            "valor_estimado_item": "19.00",
+                            "valor_negociado": None
+      }
+    ]
+  },
+ "_links": {"first": {"href": "/pregoes/doc/pregao/9430010001372020/itens.json?offset=0",
+                      "title": "Primeira página"
+    },
+            "self": {"href": "http: //compras.dados.gov.br/pregoes/doc/pregao/9430010001372020/itens.json",
+                     "title": "Lista de Itens do pregão"
+    }
+  },
+ "count": 5,
+ "offset": 0
+}
