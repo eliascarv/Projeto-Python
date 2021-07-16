@@ -4,11 +4,11 @@ from statistics import mean, stdev, median
 import pandas as pd
 import requests
 
-excel_file = '2021.05.13 - Relacao_de_itens_e_precos2.xlsx' 
+excel_file = 'sudocontrol-original.xlsx' 
 wb = load_workbook(excel_file, data_only = True)
-sh = wb['Almofada para carimbo']
+sh = wb['Abraçadeira (2)']
 wb.sheetnames
-sh['A1'].fill.start_color.index
+sh['A1410'].fill.start_color.index
 
 color_list = []
 for i in range(7, sh.max_row):
@@ -18,14 +18,55 @@ for i in range(7, sh.max_row):
 
 
 numrows = len(color_list)
-wbpd = pd.read_excel(excel_file, skiprows=5, sheet_name='Almofada para carimbo', converters={'Identif Compra': str,'Pregão':str,'Cód. Unidade':str})
+wbpd = pd.read_excel(excel_file, skiprows=5, sheet_name='Abraçadeira (2)', converters={'Identif Compra': str,'Pregão':str,'Cód. Unidade':str})
 wbpd = wbpd[0:numrows]
-color_col = [1 if i == 'FFDAF2F4' else 0 for i in color_list]
+color_col = [1 if color == 'FFE2F0D9' else 0 for color in color_list]
 wbpd['Ativo'] = color_col
 
 wbpd["Número do Pregão"] = wbpd['Cód. Unidade'] + "000" + wbpd['Pregão']
 
 quant_item = []
+
+# def pesquisar_quant_item(num_item, itens_lista, lista):
+#     for item in itens_lista:
+#         item_title = item['_links']['self']['title']
+#         if int(item_title.split()[1].split(":")[0]) == num_item:
+#             quant = int(item['quantidade_item'])
+#             lista.append(quant)
+#             return True
+    
+#     return False
+
+
+# for index, row in wbpd.iterrows():
+#     if row['Ativo'] == 1:
+#         if row['Modalidade Compra'] == 'Dispensa de Licitação':
+#             quant_item.append("Erro: Dispensa de Licitação")
+
+#         try:
+#             num_item = int(row['Item'])
+
+#             response = requests.get('http://compras.dados.gov.br/pregoes/doc/pregao/{}/itens.json'.format(row["Número do Pregão"]))
+#             resdict = response.json()
+
+#             itens = resdict['_embedded']['pregoes']
+
+#             result_pesquisa = pesquisar_quant_item(num_item, itens, quant_item)
+
+#             if result_pesquisa == False:
+#                 response = requests.get('http://compras.dados.gov.br/pregoes/doc/pregao/{}/itens.json?offset=500'.format(row["Número do Pregão"]))
+#                 resdict = response.json()
+
+#                 itens = resdict['_embedded']['pregoes']
+
+#                 result_pesquisa = pesquisar_quant_item(num_item, itens, quant_item)
+
+#         except:
+#             quant_item.append("Erro: Desconhecido")
+            
+#     else:
+#         quant_item.append('Item não ativo')
+
 
 for index, row in wbpd.iterrows():
     if row['Ativo'] == 1:
@@ -68,6 +109,8 @@ for index, row in wbpd.iterrows():
 
 wbpd['Quant Item'] = quant_item
 
+wbpd['Quant Item'] = quant_item
+
 anexos_links = []
 
 for index, row in wbpd.iterrows():
@@ -103,7 +146,6 @@ for index, row in wbpd.iterrows():
     else:
         dentro_do_periodo.append('Item não ativo')
 
-len(dentro_do_periodo)
 
 wbpd['Dentro do Período'] = dentro_do_periodo
 
